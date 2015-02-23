@@ -129,7 +129,7 @@ trait TranslatableMethods
 
     public function getDefaultLocale()
     {
-        return 'en';
+        return 'ru';
     }
 
     protected function proxyCurrentLocaleTranslation($method, array $arguments = [])
